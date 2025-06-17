@@ -1,0 +1,79 @@
+.heading{
+    width: 100%;                       
+    background-color: rgb(237, 151, 165); 
+    padding: 5px 0; 
+    border: 3px solid rgb(249, 162, 177);
+    border-radius: 10px;              
+}
+
+.content {
+    max-width: 1200px;                
+    margin-left: 50px;                   
+    display: flex;
+    align-items: center;
+    gap: 15px;              
+}
+
+.image-container {
+    width: 78px;
+    height: 100px;
+}
+
+.icecream {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.text-container {
+    color:beige;
+    font-family: Chewy;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 450px;   
+    color: beige;
+}
+
+.mainhead{
+    margin-left: 90px;
+    font-size: 80px;
+    margin-bottom: -50px;
+    font-family: Fredoka;
+    color: rgb(117, 29, 44);
+}
+
+.tag{
+    margin-left: 120px;
+    margin-bottom: -100px;
+    font-family: Chewy;
+    font-size: 20px;
+    color:rgb(181, 13, 44)
+}
+
+.para{
+    font-size: 20px;
+    margin-left: 80px;
+    color: rgb(34, 32, 32);
+}
+
+.sbcont{
+    width: 1090px;
+    height: 400px;   
+}
+
+.icecont{
+    margin-left: 50px;
+    margin-top: -100px;
+    height: 200px;
+    width: 150px
+}
+
+.icecont:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px pink;
+}
